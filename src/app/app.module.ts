@@ -23,7 +23,6 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import { PresetsComponent } from './Components/presets/presets.component';
 import { WelcomeComponent } from './Components/welcome/welcome.component';
 import { MainPageComponent } from './Components/main-page/main-page.component';
-import { MathjaxModule } from 'mathjax-angular';
 import {MatCardModule} from '@angular/material/card';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { TemporalComponent } from './Components/Classification/temporal/temporal.component';
@@ -31,7 +30,6 @@ import { BarPlotComponent } from './Components/bar-plot/bar-plot.component';
 import { ClassificationPageComponent } from './Components/Classification/classification-page/classification-page.component';
 import {MatInputModule} from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
-import { MatFileUploadModule } from 'angular-material-fileupload';
 import { ArrayComponent } from './Components/Classification/array/array.component';
 
 @NgModule({
@@ -50,11 +48,9 @@ import { ArrayComponent } from './Components/Classification/array/array.componen
     ArrayComponent,
   ],
   imports: [
-    MatFileUploadModule,
     FormsModule,
     MatInputModule,
     MatProgressSpinnerModule,
-    MathjaxModule.forRoot(),
     MatIconModule,
     MatButtonToggleModule,
     MatListModule,
